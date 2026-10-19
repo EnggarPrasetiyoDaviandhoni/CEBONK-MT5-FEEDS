@@ -5,12 +5,12 @@
   "strategy_mode": "BBMA_3TF_NEWS",
   "source_timezone": "Asia/Jakarta",
   "instrument": "XAUUSD",
-  "generated_at_utc": 1792440199,
-  "expires_at_utc": 1792569799,
+  "generated_at_utc": 1792449005,
+  "expires_at_utc": 1792578605,
   "schedule_from_utc": 1792342800,
   "schedule_to_utc": 1794934800,
   "provenance": {
-    "source_commit": "597c6b31f7f03f6ff2640ac2fedf3b505c5c704c",
+    "source_commit": "8983687450907df2e425d07a0072ae82b059c5b4",
     "source_base_commit": "f5daccf2ae805146ca3352de7efe6e6a9189a69b",
     "model_hashes": {
       "assets/astro-news-v1.js": "348927ac5aa35a7e78cdd7be5d5d6f9e66cfba17003ac5f26df3636b658c21bc",
@@ -22,37 +22,42 @@
     "experimental_model": true,
     "validated_price_predictor": false,
     "ea_source_published": false,
-    "calendar_checked_at_utc": 1792440173,
+    "calendar_checked_at_utc": 1792449004,
     "calendar_sources": [
       {
         "agency": "BLS",
-        "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
-        "sha256": "362eb29a5b132a41f14ac7f4a94e803690b4ef26472cc279813d05fb3cb1d69e",
-        "checked_at_utc": 1792440173
+        "calendar_provider": "NYFED",
+        "url": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+        "sha256": "930f79cd5489f502fc75f424cf1a7dc60681dc73d1d6d4be65f1861879fc310e",
+        "checked_at_utc": 1792449004
       },
       {
         "agency": "FED",
+        "calendar_provider": "FED",
         "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-        "sha256": "00e45b75fac454f485fe9804aa9a002970d37d1fab08b5f26e80f80318ed2460",
-        "checked_at_utc": 1792440173
+        "sha256": "330f3a682b7b7859dac7f1d7252824de5f95307073fc056de410a513a5d1c786",
+        "checked_at_utc": 1792449004
       },
       {
         "agency": "BLS",
-        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
-        "sha256": "67e5029903969e344658000d1a210a2a241957035e24def3d5d8878a644c55cd",
-        "checked_at_utc": 1792440173
+        "calendar_provider": "NYFED",
+        "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+        "sha256": "efeca0246b2129b0c249b37e04196366c824d3aa0658db36db31573781eec430",
+        "checked_at_utc": 1792449004
       },
       {
         "agency": "FED",
+        "calendar_provider": "FED",
         "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-        "sha256": "49a4771753921f4b101d61a606fd97d1209d7ca7f977eb00c8a5614441e4c3fa",
-        "checked_at_utc": 1792440173
+        "sha256": "818960ecc08281934822964ebe6d257bd89b898d84a91850b3aa3061ae1ff5f6",
+        "checked_at_utc": 1792449004
       },
       {
         "agency": "BEA",
+        "calendar_provider": "BEA",
         "url": "https://www.bea.gov/news/schedule",
         "sha256": "57cfa3152d4ba51f0609ada73d79e3d813432704d60e5e233222b955ca436332",
-        "checked_at_utc": 1792440173
+        "checked_at_utc": 1792449004
       }
     ],
     "unconfirmed_releases": [],
@@ -120,5 +125,5 @@
       "release_utc": 1794576600
     }
   ],
-  "revision": "7890738ce688d396b83a832cbbd0df7e1e0fcad633553ad4c7937c227df4865b"
+  "revision": "3c79bca4b34da7de16f6e29262dda310410eeff372c4dbc4d387e5443f4d9096"
 }
