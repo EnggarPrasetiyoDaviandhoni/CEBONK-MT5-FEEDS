@@ -7,12 +7,12 @@
   "strategy_mode": "BBMA_3TF_FOUR_MOMENTS",
   "source_timezone": "Asia/Jakarta",
   "instrument": "XAUUSD",
-  "generated_at_utc": 1792448520,
-  "expires_at_utc": 1792578120,
+  "generated_at_utc": 1792449003,
+  "expires_at_utc": 1792578603,
   "schedule_from_utc": 1792170000,
   "schedule_to_utc": 1797354000,
   "provenance": {
-    "source_commit": "597c6b31f7f03f6ff2640ac2fedf3b505c5c704c",
+    "source_commit": "8983687450907df2e425d07a0072ae82b059c5b4",
     "source_base_commit": "f5daccf2ae805146ca3352de7efe6e6a9189a69b",
     "model_hashes": {
       "assets/astro-news-v1.js": "348927ac5aa35a7e78cdd7be5d5d6f9e66cfba17003ac5f26df3636b658c21bc",
@@ -126,5 +126,5 @@
       "event_time_utc_ms": 1796777551284
     }
   ],
-  "revision": "e1431ef86395b87d05b2a9fc44eb91e9861a099bf73f0e87f667649418cd3b64"
+  "revision": "bda9485e4a1087bc0d5546a37ec4719ac10f3074f8cbc3dbf3f2512d4966f36c"
 }
