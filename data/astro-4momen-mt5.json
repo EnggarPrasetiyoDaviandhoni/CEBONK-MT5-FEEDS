@@ -7,8 +7,8 @@
   "strategy_mode": "BBMA_3TF_FOUR_MOMENTS",
   "source_timezone": "Asia/Jakarta",
   "instrument": "XAUUSD",
-  "generated_at_utc": 1792440199,
-  "expires_at_utc": 1792569799,
+  "generated_at_utc": 1792448520,
+  "expires_at_utc": 1792578120,
   "schedule_from_utc": 1792170000,
   "schedule_to_utc": 1797354000,
   "provenance": {
@@ -126,5 +126,5 @@
       "event_time_utc_ms": 1796777551284
     }
   ],
-  "revision": "442b8eaa4a57028279ce0c270cf958465ff162c622be5142f4a0db4872585771"
+  "revision": "e1431ef86395b87d05b2a9fc44eb91e9861a099bf73f0e87f667649418cd3b64"
 }
