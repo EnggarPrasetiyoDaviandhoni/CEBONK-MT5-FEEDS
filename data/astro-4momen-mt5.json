@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "model": "CEBONK_FOUR_MOMENTS_ASTROLOGY_V1",
+  "engine_version": "2.1.0",
+  "bias_engine_version": "1.0.0",
+  "window_policy": "WIB_CONTEXT_DAY_FRI_CLOSE_0400_V1",
+  "strategy_mode": "BBMA_3TF_FOUR_MOMENTS",
+  "source_timezone": "Asia/Jakarta",
+  "instrument": "XAUUSD",
+  "generated_at_utc": 1792440199,
+  "expires_at_utc": 1792569799,
+  "schedule_from_utc": 1792170000,
+  "schedule_to_utc": 1797354000,
+  "provenance": {
+    "source_commit": "597c6b31f7f03f6ff2640ac2fedf3b505c5c704c",
+    "source_base_commit": "f5daccf2ae805146ca3352de7efe6e6a9189a69b",
+    "model_hashes": {
+      "assets/astro-news-v1.js": "348927ac5aa35a7e78cdd7be5d5d6f9e66cfba17003ac5f26df3636b658c21bc",
+      "assets/triple-cycle-core.js": "b30e1a137120d63030f0ca5459a2704290340d7804fbf3ebed5d9673babbb005",
+      "assets/astro-moment-bias.js": "01b81d8a538014cdbf85d85911e2332c7723a819c39502f156b001cf3f0540bb"
+    },
+    "embedded_core_sha256": "b3de7ac2391e9b23b93d654c0d744433cc9cc002afb17506a317f06ba94afd61",
+    "ephemeris": "astronomy-engine@2.1.19",
+    "experimental_model": true,
+    "validated_price_predictor": false,
+    "ea_source_published": false
+  },
+  "signals": [
+    {
+      "signal_id": "moon:kuartal1:1792339999496:event",
+      "date_wib": "2026-10-18",
+      "moment_id": "kuartal1",
+      "context": "event",
+      "direction": "SELL",
+      "start_utc": 1792256400,
+      "core_utc": 1792339999,
+      "end_utc": 1792342800,
+      "event_time_utc_ms": 1792339999496
+    },
+    {
+      "signal_id": "moon:kuartal1:1792339999496:monday",
+      "date_wib": "2026-10-19",
+      "moment_id": "kuartal1",
+      "context": "monday",
+      "direction": "NEUTRAL",
+      "start_utc": 1792342800,
+      "core_utc": 1792339999,
+      "end_utc": 1792429200,
+      "event_time_utc_ms": 1792339999496
+    },
+    {
+      "signal_id": "moon:purnama:1792987935538:event",
+      "date_wib": "2026-10-26",
+      "moment_id": "purnama",
+      "context": "event",
+      "direction": "SELL",
+      "start_utc": 1792947600,
+      "core_utc": 1792987935,
+      "end_utc": 1793034000,
+      "event_time_utc_ms": 1792987935538
+    },
+    {
+      "signal_id": "moon:kuartal3:1793564938794:event",
+      "date_wib": "2026-11-02",
+      "moment_id": "kuartal3",
+      "context": "event",
+      "direction": "NEUTRAL",
+      "start_utc": 1793552400,
+      "core_utc": 1793564938,
+      "end_utc": 1793638800,
+      "event_time_utc_ms": 1793564938794
+    },
+    {
+      "signal_id": "moon:baru:1794207762392:event",
+      "date_wib": "2026-11-09",
+      "moment_id": "baru",
+      "context": "event",
+      "direction": "BUY",
+      "start_utc": 1794157200,
+      "core_utc": 1794207762,
+      "end_utc": 1794243600,
+      "event_time_utc_ms": 1794207762392
+    },
+    {
+      "signal_id": "moon:kuartal1:1794916107140:event",
+      "date_wib": "2026-11-17",
+      "moment_id": "kuartal1",
+      "context": "event",
+      "direction": "SELL",
+      "start_utc": 1794848400,
+      "core_utc": 1794916107,
+      "end_utc": 1794934800,
+      "event_time_utc_ms": 1794916107140
+    },
+    {
+      "signal_id": "moon:purnama:1795532044191:event",
+      "date_wib": "2026-11-24",
+      "moment_id": "purnama",
+      "context": "event",
+      "direction": "NEUTRAL",
+      "start_utc": 1795453200,
+      "core_utc": 1795532044,
+      "end_utc": 1795539600,
+      "event_time_utc_ms": 1795532044191
+    },
+    {
+      "signal_id": "moon:kuartal3:1796105354538:event",
+      "date_wib": "2026-12-01",
+      "moment_id": "kuartal3",
+      "context": "event",
+      "direction": "NEUTRAL",
+      "start_utc": 1796058000,
+      "core_utc": 1796105354,
+      "end_utc": 1796144400,
+      "event_time_utc_ms": 1796105354538
+    },
+    {
+      "signal_id": "moon:baru:1796777551284:event",
+      "date_wib": "2026-12-09",
+      "moment_id": "baru",
+      "context": "event",
+      "direction": "NEUTRAL",
+      "start_utc": 1796749200,
+      "core_utc": 1796777551,
+      "end_utc": 1796835600,
+      "event_time_utc_ms": 1796777551284
+    }
+  ],
+  "revision": "442b8eaa4a57028279ce0c270cf958465ff162c622be5142f4a0db4872585771"
+}
