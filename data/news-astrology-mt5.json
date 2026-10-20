@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "model": "CEBONK_NEWS_ASTROLOGY_V1",
+  "engine_version": "1.0.0",
+  "strategy_mode": "BBMA_3TF_NEWS",
+  "source_timezone": "Asia/Jakarta",
+  "instrument": "XAUUSD",
+  "generated_at_utc": 1792449005,
+  "expires_at_utc": 1792578605,
+  "schedule_from_utc": 1792342800,
+  "schedule_to_utc": 1794934800,
+  "provenance": {
+    "source_commit": "8983687450907df2e425d07a0072ae82b059c5b4",
+    "source_base_commit": "f5daccf2ae805146ca3352de7efe6e6a9189a69b",
+    "model_hashes": {
+      "assets/astro-news-v1.js": "348927ac5aa35a7e78cdd7be5d5d6f9e66cfba17003ac5f26df3636b658c21bc",
+      "assets/triple-cycle-core.js": "b30e1a137120d63030f0ca5459a2704290340d7804fbf3ebed5d9673babbb005",
+      "assets/astro-moment-bias.js": "01b81d8a538014cdbf85d85911e2332c7723a819c39502f156b001cf3f0540bb"
+    },
+    "embedded_core_sha256": "b3de7ac2391e9b23b93d654c0d744433cc9cc002afb17506a317f06ba94afd61",
+    "ephemeris": "astronomy-engine@2.1.19",
+    "experimental_model": true,
+    "validated_price_predictor": false,
+    "ea_source_published": false,
+    "calendar_checked_at_utc": 1792449004,
+    "calendar_sources": [
+      {
+        "agency": "BLS",
+        "calendar_provider": "NYFED",
+        "url": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+        "sha256": "930f79cd5489f502fc75f424cf1a7dc60681dc73d1d6d4be65f1861879fc310e",
+        "checked_at_utc": 1792449004
+      },
+      {
+        "agency": "FED",
+        "calendar_provider": "FED",
+        "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+        "sha256": "330f3a682b7b7859dac7f1d7252824de5f95307073fc056de410a513a5d1c786",
+        "checked_at_utc": 1792449004
+      },
+      {
+        "agency": "BLS",
+        "calendar_provider": "NYFED",
+        "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+        "sha256": "efeca0246b2129b0c249b37e04196366c824d3aa0658db36db31573781eec430",
+        "checked_at_utc": 1792449004
+      },
+      {
+        "agency": "FED",
+        "calendar_provider": "FED",
+        "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+        "sha256": "818960ecc08281934822964ebe6d257bd89b898d84a91850b3aa3061ae1ff5f6",
+        "checked_at_utc": 1792449004
+      },
+      {
+        "agency": "BEA",
+        "calendar_provider": "BEA",
+        "url": "https://www.bea.gov/news/schedule",
+        "sha256": "57cfa3152d4ba51f0609ada73d79e3d813432704d60e5e233222b955ca436332",
+        "checked_at_utc": 1792449004
+      }
+    ],
+    "unconfirmed_releases": [],
+    "entry_policy": {
+      "pre": 30,
+      "post": 120,
+      "blockBefore": 5,
+      "blockAfter": 5,
+      "entrySpan": 10,
+      "minWindow": 15,
+      "otherRisk": true
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "news:0342e20522c16e5dad2b6fb4cf09bd2b1ee1d8aa",
+      "date_wib": "2026-10-29",
+      "session_id": "news",
+      "direction": "BUY",
+      "start_utc": 1793210700,
+      "core_utc": 1793210700,
+      "end_utc": 1793211300,
+      "source_event_ids": [
+        "fomc-20261028"
+      ],
+      "release_utc": 1793210400
+    },
+    {
+      "signal_id": "news:ca0797708f207fb09d04a430fe58d3020cfbb6d2",
+      "date_wib": "2026-11-06",
+      "session_id": "news",
+      "direction": "BUY",
+      "start_utc": 1793972100,
+      "core_utc": 1793972100,
+      "end_utc": 1793972700,
+      "source_event_ids": [
+        "nfp-20261106"
+      ],
+      "release_utc": 1793971800
+    },
+    {
+      "signal_id": "news:b44bb5c49bda351d7e90948c86ae18d2078ef4b0",
+      "date_wib": "2026-11-10",
+      "session_id": "news",
+      "direction": "BUY",
+      "start_utc": 1794317700,
+      "core_utc": 1794317700,
+      "end_utc": 1794318300,
+      "source_event_ids": [
+        "cpi-20261110"
+      ],
+      "release_utc": 1794317400
+    },
+    {
+      "signal_id": "news:aac537fe506329205414ed7b9b6b8918c96d7e5c",
+      "date_wib": "2026-11-13",
+      "session_id": "news",
+      "direction": "SELL",
+      "start_utc": 1794576900,
+      "core_utc": 1794577200,
+      "end_utc": 1794577500,
+      "source_event_ids": [
+        "ppi-20261113"
+      ],
+      "release_utc": 1794576600
+    }
+  ],
+  "revision": "3c79bca4b34da7de16f6e29262dda310410eeff372c4dbc4d387e5443f4d9096"
+}
